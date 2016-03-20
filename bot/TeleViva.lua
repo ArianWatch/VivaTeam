@@ -224,6 +224,7 @@ function create_config( )
     "invite",
     "all",
     "leave_ban",
+    "inpmchat",
     "admin"
     },
     sudo_users = {137984481},--Sudo users
@@ -231,24 +232,8 @@ function create_config( )
     moderation = {data = 'data/moderation.json'},
     about_text = [[Viva v2
 
-https://github.com/ArianWatch/VivaTeam
+https://github.com/ArianWatch/VivaTeam 
 
-Our team!
-Alphonse (@Iwals)
-I M /-\ N (@Imandaneshi)
-Siyanew (@Siyanew)
-Rondoozle (@Potus)
-Seyedan (@Seyedan25)
-
-Special thanks to:
-Juan Potato
-Siyanew
-Topkecleon
-Vamptacus
-
-Our channels:
-English: @TeleSeedCH
-Persian: @IranSeed
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -321,112 +306,73 @@ This command will send text to [group_id]
 
 » Only owner can use res,setowner,promote,demote and log commands
 
+
+
 ]],
     help_text = [[
-Commands list :
+❕ Commads List For Viva :
+❗.️id ( هم یوزر نیم و هم ایدی عددی شخص)
+!kick (reply) [ @username|id]  حذف شخص با ریپلی و ایدی 🚻
 
-!kick [username|id]
-You can also do it by reply
+!ban (reply) [ @username|id] مسدود کردن با ریپلی و ایدی 🆗
 
-!ban [ username|id]
-You can also do it by reply
+!unban (reply) [id] صلب مسدودیت فرد مسدود شده 7⃣
 
-!unban [id]
-You can also do it by reply
+!who ارائه مشخصات افراد در گروه 🆓
 
-!who
-Members list
+!modlist فهرست مدیران ♿️
 
-!modlist
-Moderators list
+!promote   [ @username ] برای برگذیدن مدیریت گروه 🔄
 
-!promote [username]
-Promote someone
+!demote (reply) [username] صلب از مدیریت یه شخص ↪️
 
-!demote [username]
-Demote someone
+!kickme برای حذف خود از گروه ⏺
 
-!kickme
-Will kick user
+!about معرفی گروه ⏺
 
-!about
-Group description
+!setphoto گذاشتن عکس برای گروه 🔟
 
-!setphoto
-Set and locks group photo
+!setname [name] گذاشتن اسم برای گروه 8⃣
 
-!setname [name]
-Set group name
+!rules قوانین 🆖
 
-!rules
-Group rules
+!id (reply) ایدی عددی گروه و باریپلی روی فردی ایدی عددی فرد 7⃣
 
-!id
-Return group id or user id
+!lock [member|name|bots|leave] محدود کردن هر یک 🚻
 
-!help
-Get commands list
+!unlock [member|name|bots|leave] لغو مخدودیت هر یک 🆙
 
-!lock [member|name|bots|leave] 
-Locks [member|name|bots|leaveing] 
+!set rules <text> گذاشتن قوانین 🏧
 
-!unlock [member|name|bots|leave]
-Unlocks [member|name|bots|leaving]
+!set about <text> گذاشتن معرف گروه 🛂
 
-!set rules [text]
-Set [text] as rules
+!settings تنظیمات گروه 🌐
 
-!set about [text]
-Set [text] as about
+!newlink نشاندن لینک جدید ♌️
 
-!settings
-Returns group settings
+!link اخذ لینک مربوط به گروه ♌️
 
-!newlink
-Create/revoke your group link
+!owner دانستن صاحب گروه ☸
 
-!link
-Returns group link
+!setflood [value] تنظیم حساسیت ربات به تعداد پیام ها ♎️
 
-!owner
-Returns group owner id
+!stats مشخصات کلی ♋️
 
-!setowner [id]
-Will set id as owner
+!save [value] <text> ذخیره کردن متن در ربات 🚋
 
-!setflood [value]
-Set [value] as flood sensitivity
+!get [value] گرفتن متن ذخیره شده 🔁
 
-!stats
-Simple message statistics
+!clean [modlist|rules|about] پاک کردن هر یک 😊
 
-!save [value] [text]
-Save [text] as [value]
+!res [ @usermame ] گرفتن ایدی عددی فرد یا یوزر 🔘
 
-!get [value]
-Returns text of [value]
+!log امار ☑️
 
-!clean [modlist|rules|about]
-Will clear [modlist|rules|about] and set it to nil
+!banlist فهرست افراد مسدود شده ⚫️
 
-!res [username]
-Returns user id
-
-!log
-Will return group logs
-
-!banlist
-Will return group ban list
-
-» U can use both "/" and "!" 
-
-» Only mods, owner and admin can add bots in group
-
-» Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
-
-» Only owner can use res,setowner,promote,demote and log commands
-
-● This bot sudo is @ArianWatch
+قبل از دادن دستور حتما از / یا ! استفاده کنید 🔂
+Developer @ArianWatch ⏺
+Bot @Viva_TG ⏹
 
 ]]
   }
