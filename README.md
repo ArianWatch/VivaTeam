@@ -1,9 +1,7 @@
-# [TeleSeed](https://telegram.me/TeleSeed)
+# [Viva](https://telegram.me/ArianWatch/Viva)
 
-[![Join the chat at https://gitter.im/SEEDTEAM/TeleSeed](https://badges.gitter.im/SEEDTEAM/TeleSeed.svg)](https://gitter.im/SEEDTEAM/TeleSeed?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-**An advanced and powerful administration bot based on [yagop/telegram-bot](https://github.com/yagop/telegram-bot) licensed under the [GNU General Public License](https://github.com/SEEDTEAM/TeleSeed/blob/master/LICENSE)**.
-# Features
+**An advanced and powerful administration bot based on [TeleSeed/TelegramBot](https://github.com/seedteam/teleseed) licensed under the [GNU General Public License](https://github.com/ArianWatch/Viva/blob/master/LICENSE)**.
+# Features Viva
 
 * **A powerful antispam system with custom sensitivity for each group**
 * **Multiple realms (admin groups)**
@@ -21,7 +19,7 @@
 * **And more!**
 
 **Table of Contents**
-- [TeleSeed](#teleseed)
+- [Viva](#Viva)
 - [Features](#features)
 - [Commands](#commands)
 	- [Admins commands](#admins-commands)
@@ -92,7 +90,7 @@
 ### Group creation
 >[!/]creategroup [group name]
 >
->>[!/]creategroup SEED
+>>[!/]creategroup VIVA
 >>>will create a group
 >>>
 >>>_Only works in realms for admins but, sudo users can use it everywhere_
@@ -100,7 +98,7 @@
 ### Realm creation
 >[!/]createrealm [realm name]
 >
->>[!/]createrealm SEED
+>>[!/]createrealm VIVA
 >>>will create a realm
 >>>
 >>>_Only works in realms for admins but, sudo users can use it everywhere_
@@ -458,9 +456,7 @@ After you run the bot for first time, send it `!id`. Get your ID and stop the bo
 Open ./data/config.lua and add your ID to the "sudo_users" section in the following format:
 ```
   sudo_users = {
-    110626080,
-    103649648,
-    111020322,
+    137984481,
     0,
     YourID
   }
