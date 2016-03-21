@@ -20,10 +20,10 @@
 
 # [ArianWatch] (https://telegram.me/arianwatch) This Bot Sudo On Telegram 
 
-* **Manager Of Bot 
-* **Createor The Bot
+*Manager Of Bot 
+*Createor The Bot
 
 # Special Thanks To 
 
-# [@ParsaEslami] (https://telegram.me/ParsaEslami)
-# [@Hossein_Yzzz] (https://telegram.me/Hossein_Yzzz)
+[@ParsaEslami] (https://telegram.me/ParsaEslami)
+[@Hossein_Yzzz] (https://telegram.me/Hossein_Yzzz)
